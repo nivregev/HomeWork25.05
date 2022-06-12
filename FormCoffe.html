@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormCoffee</title>
+    <link rel="stylesheet" href="FormCoffe.css" />
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <div class="header-title">
+          <h1>Coffe Story - Form Page</h1>
+        </div>
+        <div class="header-nav">
+          <ul>
+            <li><a href="index.html">Home - Coffe Story</a></li>
+            <br />
+            <li><a href="AboutUs.html">About US</a></li>
+            <br />
+            <li><a href="FormCoffe.html">Form About Coffe</a></li>
+            <br />
+          </ul>
+        </div>
+        <div class="header-logo">
+          <img
+            width="100px"
+            height="100px"
+            src="https://cdn.pixabay.com/photo/2018/03/11/17/36/coffee-3217471_1280.png"
+            alt=""
+          />
+        </div>
+      </header>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <form class="guest-form" action="https://formspree.io/f/xqknnkwk">
+        <h2 class="guest-info">Guest Information</h2>
+        <div>
+          <label for="title">Title: </label>
+
+          <label for="Mr.">Mr.</label>
+          <input type="radio" id="Mr." name="Title" value="Mr." />
+
+          <label for="Mrs.">Mrs.</label>
+          <input type="radio" id="Mrs." name="Title" value="Mrs." />
+
+          <label for="Other">Other</label>
+          <input type="radio" id="Other" name="Title" value="Other" />
+        </div>
+        <br />
+        <div>
+          <label for="FirstName">First Name:</label>
+          <input
+            type="text"
+            id="FirstName"
+            name="FirstName"
+            placeholder="FirstName"
+          />
+
+          <label for="LastName">Last Name:</label>
+          <input
+            type="text"
+            id="LastName"
+            name="LastName"
+            placeholder="Last Name"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="Tel-Number">Tel-Number:</label>
+          <input
+            type="Tel"
+            id="Tel-Number"
+            name="Tel-Number"
+            placeholder="Telephone Number"
+          />
+
+          <label for="E-mail">E-mail:</label>
+          <input type="E-mail" id="E-mail" name="E-mail" placeholder="E-mail" />
+        </div>
+        <br />
+        <div>
+          <label for="Birthday">Birthday:</label>
+          <input type="date" id="Birthday" name="Birthday" />
+        </div>
+        <br />
+        <input class="submit-button" type="submit" />
+      </form>
+      <form class="coffee-form" action="https://formspree.io/f/xqknnkwk">
+        <h2>Coffee Form</h2>
+
+        <div>
+          <label for="fav-coffee">Your favourite Coffee: </label>
+          <select name="fav-coffee" id="fav-coffee">
+            <option value="Espresso">Espresso</option>
+            <option value="Americano">Americano</option>
+            <option value="Cappuccino">Cappuccino</option>
+            <option value="Black-Coffee">Black-Coffee</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label for="coffe-cups">coffee cups per day: </label>
+          <select id="coffee-cups" name="coffee-cups">
+            <option value="none">none</option>
+            <option value="1-2">1-2</option>
+            <option value="3-4">3-4</option>
+            <option value="5+">5+</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="coffee-extras">do you add somthing to your coffee?</label>
+
+          <label for="No">No</label>
+          <input type="radio" id="No" name="coffee-extras" value="NO" />
+
+          <label for="Sugar">Suger</label>
+          <input type="radio" id="Suger" name="Suger" value="Suger" />
+
+          <label for="saccharine">saccharine</label>
+          <input
+            type="radio"
+            id="saccharine"
+            name="coffee-extras"
+            value="saccharine"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="hot/cold-coffee">Do You Prefer Your Coffee:</label>
+
+          <label for="Hot">Hot</label>
+          <input type="radio" id="Hot" name="hot/cold-coffee" value="Hot" />
+
+          <label for="Cold">Cold</label>
+          <input type="radio" id="Cold" name="hot/cold-coffee" value="Cold" />
+        </div>
+        <br />
+        <div>
+          <label for="">how do you see your day without coffee?</label>
+          <input type="text" />
+        </div>
+        <br />
+        <input class="submit-button" type="submit" />
+      </form>
+      <h3>Enjoy Your Coffee And Have A Nice Day :)</h3>
+    </div>
+  </body>
+</html>
